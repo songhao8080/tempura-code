@@ -23,6 +23,7 @@ public enum PurchaseFactoryEnum {
 
     private String type;
     private String desc;
+    // ? 代表不确定的类
     private Class<?> service;
 
     public static IPurchaseService getService(String type){
